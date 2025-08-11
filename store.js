@@ -5,7 +5,7 @@ const products = [
     description: "Funciona para poder poner velocidad únicas a los vehículos.",
     price: "$2 USD",
     mediaType: "image",
-    mediaSrc: "IMG/ilegal.jpg"
+    mediaSrc: "ilegal.jpg"
   },
   {
     id: 2,
@@ -13,39 +13,39 @@ const products = [
     description: "Funciona para poder ver si el vehiculo a estado alterado con su respectivo acl de polica.",
     price: "$2 USD",
     mediaType: "image",
-    mediaSrc: "IMG/revisar.jpg"
+    mediaSrc: "revisar.jpg"
   },
   {
     id: 3,
     title: "Sistema de arresto con su Carcel y mapeo",
     description: "Sistema de arrestar con carcel y trabajo para disminuir el tiempo con acl de policia.",
     price: "$5 USD",
-    mediaType: "video",
-    mediaSrc: "IMG/arrestar.mp4"
+    mediaType: "image",
+    mediaSrc: "arrestar.jpg"
   },
   {
     id: 4,
     title: "Script de laser",
     description: "Funciona para poder utilizar lazer en las armas.",
     price: "$4 USD",
-    mediaType: "video",
-    mediaSrc: "IMG/laser.mp4"
+    mediaType: "image",
+    mediaSrc: "laser.jpg"
   },
   {
     id: 5,
     title: "Trabajo de cortador de cesped",
     description: "Trabajo.",
     price: "$1 USD",
-    mediaType: "video",
-    mediaSrc: "IMG/cesped.mp4"
+    mediaType: "image",
+    mediaSrc: "cesped.jpg"
   },
   {
     id: 6,
-    title: "Demo en Video",
-    description: "Video mostrando las funciones del script",
+    title: "Demo en foto",
+    description: "foto mostrando las funciones del script",
     price: "$18 USD",
-    mediaType: "video",
-    mediaSrc: "IMG/arrestar.mp4"
+    mediaType: "image",
+    mediaSrc: "arrestar.jpg"
   }
 ];
 
@@ -165,3 +165,4 @@ modal.addEventListener('click', (e) => {
     }
   }
 });
+
